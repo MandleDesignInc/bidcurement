@@ -1,0 +1,15 @@
+// compileCompressed: ../dist/css/$1.min.css
+
+$primary:       rgb(34,148,245);
+/*$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;*/
+$dark:          rgb(11,32,49);
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap');
+$font-family-sans-serif: 'Antonio', sans-serif;
+
+@import "bootstrap";
